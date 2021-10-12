@@ -50,7 +50,6 @@ router.post("/login", checkUsernameExists, (req, res, next) => {
       "role_name": "admin" // the role of the authenticated user
     }
    */
-
 });
 
 module.exports = router;
